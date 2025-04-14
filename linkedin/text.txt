@@ -1,0 +1,177 @@
+Excited to share my latest project—an AI-driven restaurant platform that combines:
+
+ ✅ AI-based restaurant and dish recommendations 
+
+ ✅ Full-fledged food ordering system 
+
+ ✅ Automated email verification system 
+
+ ✅ Multi-role dashboards (Admin, Chef, Driver, User) 
+
+
+
+ Technologies Used:
+
+Frontend
+
+React.js 
+
+HTML & CSS 
+
+React Router 
+
+Axios 
+
+
+
+Backend:
+
+Node.js & Express.js (for building REST APIs)
+
+Flask (to integrate AI model into backend)
+
+bcrypt & JWT (for authentication & security)
+
+express-validator 
+
+cookie-parser & CORS
+
+
+
+Database (Data Storage & Management):
+
+MongoDB + Mongoose
+
+
+
+AI & Machine Learning:
+
+Python 
+
+Pandas & NumPy 
+
+Scikit-learn 
+
+SciPy.sparse
+
+Kaggle Dataset
+
+ 
+
+Additional Features & Integrations:
+
+Nodemailer 
+
+Body-parser 
+
+UUID
+
+
+
+ Key Features & How It Works
+
+
+
+1️⃣ AI-Powered Smart Recommendations 
+
+Built a machine learning model using collaborative filtering to recommend restaurants and dishes based on user preferences.
+
+Dataset from Kaggle trained the model to suggest personalized meals based on previous orders, ratings, and food preferences.
+
+AI model runs on Flask and connects seamlessly with the Node.js backend.
+
+
+
+2️⃣ Restaurant Ordering System 
+
+🔹 Users can:
+
+Browse restaurant menus & dishes
+
+Filter by cuisine, ratings, and user preferences
+
+Add items to cart, checkout & place orders
+
+🔹 Chefs can:
+
+View incoming orders and update the preparation status
+
+Mark orders as ready for pickup
+
+🔹 Drivers can:
+
+View assigned deliveries
+
+Mark orders as out for delivery or completed
+
+🔹 Admins can:
+
+Manage users, restaurants, and order history
+
+
+
+3️⃣ Automated Email Verification System 
+
+New users receive a verification email upon signing up.
+
+Verification link expires after a set time to ensure security.
+
+Uses Nodemailer to send unique verification tokens to registered emails.
+
+Users must verify their email before accessing full platform features.
+
+
+
+4️⃣ Multi-Role Dashboard
+
+Each user type has access to a customized dashboard with specific functionalities:
+
+✅ User Dashboard:
+
+View recommended restaurants & dishes
+
+Place & track orders
+
+Verify email before full access
+
+✅ Chef Dashboard:
+
+View pending food orders
+
+Update order status in real-time
+
+✅ Driver Dashboard:
+
+View delivery assignments
+
+Update order status (delivered, delayed, etc.)
+
+✅ Admin Dashboard:
+
+Manage users, restaurants, and orders
+
+No analytics features
+
+
+
+📌 Challenges & Solutions
+
+🚧 Challenge 1: AI Model Deployment 
+
+Solution: Hosted the model as a Flask API and integrated it with the Node.js backend.
+
+🚧 Challenge 2: Secure Email Verification 
+
+Solution: Used JWT-based verification links to prevent unauthorized access.
+
+🚧 Challenge 3: Real-Time Order Tracking 
+
+Solution: Used WebSockets to enable instant updates on order statuses.
+
+🚧 Challenge 4: Secure Authentication 
+
+Solution: Used JWT (JSON Web Token) to manage secure user logins and role-based access control.
+
+
+
+This project was a game-changer for me! Seeing AI recommend dishes, process orders, notify users, and verify user emails seamlessly was an incredible experience.
